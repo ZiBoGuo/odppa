@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Jul 17 21:05:16 2023
+# Process ID: 5136
+# Current directory: E:/DNNv4/pp717/dnn_690t
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10576 E:\DNNv4\pp717\dnn_690t\dnn_690t.xpr
+# Log file: E:/DNNv4/pp717/dnn_690t/vivado.log
+# Journal file: E:/DNNv4/pp717/dnn_690t\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/DNNv4/pp717/dnn_690t/dnn_690t.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation -install_path C:/modeltech64_10.6d/win64 -simset [get_filesets sim_2 ]
+reset_simulation -simset sim_2 -mode behavioral
+set_property compxlib.modelsim_compiled_library_dir E:/development_tools/Modelsim/Vivado201803SimLib [current_project]
+launch_simulation -install_path C:/modeltech64_10.6d/win64 -simset [get_filesets sim_2 ]
+launch_simulation -install_path C:/modeltech64_10.6d/win64 -simset [get_filesets sim_2 ]
+launch_simulation -install_path C:/modeltech64_10.6d/win64 -simset [get_filesets sim_2 ]
+launch_simulation -install_path C:/modeltech64_10.6d/win64 -simset [get_filesets sim_2 ]
+launch_simulation -install_path C:/modeltech64_10.6d/win64 -simset [get_filesets sim_2 ]
+launch_simulation -install_path C:/modeltech64_10.6d/win64 -simset [get_filesets sim_2 ]
+reset_simulation -simset sim_2 -mode behavioral

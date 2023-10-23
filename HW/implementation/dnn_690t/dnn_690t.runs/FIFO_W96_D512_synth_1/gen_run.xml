@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="FIFO_W96_D512_synth_1" LaunchPart="xc7vx690tffg1761-2" LaunchTime="1689146068">
+  <File Type="REPORTS-TCL" Name="FIFO_W96_D512_reports.tcl"/>
+  <File Type="PA-TCL" Name="FIFO_W96_D512.tcl"/>
+  <File Type="RDS-DCP" Name="FIFO_W96_D512.dcp"/>
+  <File Type="RDS-RDS" Name="FIFO_W96_D512.vds"/>
+  <File Type="RDS-UTIL" Name="FIFO_W96_D512_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="FIFO_W96_D512_utilization_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/FIFO_W96_D512">
+    <File Path="$PSRCDIR/sources_1/ip/FIFO_W96_D512/FIFO_W96_D512.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="FIFO_W96_D512"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/FIFO_W96_D512">
+    <File Path="$PSRCDIR/sources_1/ip/FIFO_W96_D512/FIFO_W96_D512.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="FIFO_W96_D512"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

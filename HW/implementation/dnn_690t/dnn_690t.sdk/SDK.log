@@ -1,0 +1,448 @@
+10:26:14 INFO  : Registering command handlers for SDK TCF services
+10:26:15 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\hht\Desktop\DNN_690t_normal\DNN_690t_origin\DNN_690t_0531\dnn_690t\dnn_690t.sdk\temp_xsdb_launch_script.tcl
+10:26:20 INFO  : XSCT server has started successfully.
+10:26:25 INFO  : Successfully done setting XSCT server connection channel  
+10:26:25 INFO  : Successfully done setting SDK workspace  
+10:26:25 INFO  : Processing command line option -hwspec C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top.hdf.
+11:00:40 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\hht\Desktop\DNN_690t_normal\DNN_690t_origin\DNN_690t_0531\dnn_690t\dnn_690t.sdk\temp_xsdb_launch_script.tcl
+11:00:41 INFO  : XSCT server has started successfully.
+11:00:42 INFO  : Successfully done setting XSCT server connection channel  
+11:00:42 INFO  : Successfully done setting SDK workspace  
+11:00:43 INFO  : Registering command handlers for SDK TCF services
+11:00:44 INFO  : Processing command line option -hwspec C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top.hdf.
+11:00:44 INFO  : Checking for hwspec changes in the project DNN_top_hw_platform_0.
+15:18:40 INFO  : Registering command handlers for SDK TCF services
+15:18:41 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\hht\Desktop\DNN_690t_normal\DNN_690t_origin\DNN_690t_0531\dnn_690t\dnn_690t.sdk\temp_xsdb_launch_script.tcl
+15:18:42 INFO  : XSCT server has started successfully.
+15:18:42 INFO  : Successfully done setting XSCT server connection channel  
+15:18:42 INFO  : Successfully done setting SDK workspace  
+15:18:42 INFO  : Processing command line option -hwspec C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top.hdf.
+15:18:42 INFO  : Checking for hwspec changes in the project DNN_top_hw_platform_0.
+15:18:43 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1593669593206,  Project:1593618373111
+15:18:43 INFO  : The hardware specification for project 'DNN_top_hw_platform_0' is different from C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top.hdf.
+15:18:43 INFO  : Copied contents of C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top.hdf into \DNN_top_hw_platform_0\system.hdf.
+15:18:44 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:18:47 INFO  : 
+15:18:48 INFO  : Updating hardware inferred compiler options for yolo_layer.
+15:18:48 INFO  : Clearing existing target manager status.
+15:57:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:57:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+15:57:21 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+15:58:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:58:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+15:58:13 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+16:00:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:00:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+16:00:11 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+16:02:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:02:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+16:02:17 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+16:12:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+16:12:07 INFO  : 'fpga -state' command is executed.
+16:12:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:12:07 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203A7BDEFA' is selected.
+16:12:07 INFO  : 'jtag frequency' command is executed.
+16:12:07 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:12:07 INFO  : Context for processor 'microblaze_0' is selected.
+16:12:07 INFO  : Processor reset is completed for 'microblaze_0'.
+16:12:07 INFO  : Context for processor 'microblaze_0' is selected.
+16:12:07 INFO  : The application 'C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/yolo_layer/Debug/yolo_layer.elf' is downloaded to processor 'microblaze_0'.
+16:12:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA"} -index 0
+dow C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/yolo_layer/Debug/yolo_layer.elf
+----------------End of Script----------------
+
+16:12:08 INFO  : Memory regions updated for context PA
+16:12:08 INFO  : Memory regions updated for context PA
+16:12:08 INFO  : Context for processor 'microblaze_0' is selected.
+16:12:08 INFO  : 'con' command is executed.
+16:12:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA"} -index 0
+con
+----------------End of Script----------------
+
+16:12:08 INFO  : Launch script is exported to file 'C:\Users\hht\Desktop\DNN_690t_normal\DNN_690t_origin\DNN_690t_0531\dnn_690t\dnn_690t.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_yolo_layer.elf_on_local.tcl'
+16:12:44 INFO  : Disconnected from the channel tcfchan#1.
+16:12:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+16:12:45 INFO  : 'fpga -state' command is executed.
+16:12:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:12:45 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203A7BDEFA' is selected.
+16:12:45 INFO  : 'jtag frequency' command is executed.
+16:12:45 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:12:45 INFO  : Context for processor 'microblaze_0' is selected.
+16:12:45 INFO  : Processor reset is completed for 'microblaze_0'.
+16:12:45 INFO  : Context for processor 'microblaze_0' is selected.
+16:12:45 INFO  : The application 'C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/yolo_layer/Debug/yolo_layer.elf' is downloaded to processor 'microblaze_0'.
+16:12:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA"} -index 0
+dow C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/yolo_layer/Debug/yolo_layer.elf
+----------------End of Script----------------
+
+16:12:45 INFO  : Memory regions updated for context PA
+16:12:45 INFO  : Memory regions updated for context PA
+16:12:45 INFO  : Context for processor 'microblaze_0' is selected.
+16:12:45 INFO  : 'con' command is executed.
+16:12:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA"} -index 0
+con
+----------------End of Script----------------
+
+16:12:45 INFO  : Launch script is exported to file 'C:\Users\hht\Desktop\DNN_690t_normal\DNN_690t_origin\DNN_690t_0531\dnn_690t\dnn_690t.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_yolo_layer.elf_on_local.tcl'
+16:15:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:15:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+16:15:27 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+16:15:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:15:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+16:15:42 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+16:16:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:16:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+16:16:10 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+16:16:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:16:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+16:16:35 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+16:17:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:17:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+16:17:09 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+16:19:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:19:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+16:19:14 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+16:22:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:22:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:22:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+16:22:29 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+16:23:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:23:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+16:23:57 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+16:24:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:24:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+16:24:06 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+16:24:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:24:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+16:24:18 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+16:26:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:26:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+16:26:15 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+16:26:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:26:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+16:26:36 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+16:34:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:34:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+16:34:09 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+16:34:24 INFO  : Disconnected from the channel tcfchan#2.
+16:34:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+16:34:25 INFO  : 'fpga -state' command is executed.
+16:34:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:34:25 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203A7BDEFA' is selected.
+16:34:26 INFO  : 'jtag frequency' command is executed.
+16:34:26 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:34:26 INFO  : Context for processor 'microblaze_0' is selected.
+16:34:26 INFO  : Processor reset is completed for 'microblaze_0'.
+16:34:26 INFO  : Context for processor 'microblaze_0' is selected.
+16:34:26 INFO  : The application 'C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/yolo_layer/Debug/yolo_layer.elf' is downloaded to processor 'microblaze_0'.
+16:34:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA"} -index 0
+dow C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/yolo_layer/Debug/yolo_layer.elf
+----------------End of Script----------------
+
+16:34:26 INFO  : Memory regions updated for context PA
+16:34:26 INFO  : Memory regions updated for context PA
+16:34:26 INFO  : Context for processor 'microblaze_0' is selected.
+16:34:26 INFO  : 'con' command is executed.
+16:34:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA"} -index 0
+con
+----------------End of Script----------------
+
+16:34:26 INFO  : Launch script is exported to file 'C:\Users\hht\Desktop\DNN_690t_normal\DNN_690t_origin\DNN_690t_0531\dnn_690t\dnn_690t.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_yolo_layer.elf_on_local.tcl'
+16:35:22 INFO  : Disconnected from the channel tcfchan#3.
+16:35:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+16:35:23 INFO  : 'fpga -state' command is executed.
+16:35:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:35:24 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203A7BDEFA' is selected.
+16:35:24 INFO  : 'jtag frequency' command is executed.
+16:35:24 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:35:24 INFO  : Context for processor 'microblaze_0' is selected.
+16:35:24 INFO  : Processor reset is completed for 'microblaze_0'.
+16:35:24 INFO  : Context for processor 'microblaze_0' is selected.
+16:35:24 INFO  : The application 'C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/yolo_layer/Debug/yolo_layer.elf' is downloaded to processor 'microblaze_0'.
+16:35:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA"} -index 0
+dow C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/yolo_layer/Debug/yolo_layer.elf
+----------------End of Script----------------
+
+16:35:24 INFO  : Memory regions updated for context PA
+16:35:24 INFO  : Memory regions updated for context PA
+16:35:24 INFO  : Context for processor 'microblaze_0' is selected.
+16:35:24 INFO  : 'con' command is executed.
+16:35:24 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA"} -index 0
+con
+----------------End of Script----------------
+
+16:35:24 INFO  : Launch script is exported to file 'C:\Users\hht\Desktop\DNN_690t_normal\DNN_690t_origin\DNN_690t_0531\dnn_690t\dnn_690t.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_yolo_layer.elf_on_local.tcl'
+16:35:37 INFO  : Disconnected from the channel tcfchan#4.
+16:35:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+16:35:39 INFO  : 'fpga -state' command is executed.
+16:35:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:35:39 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203A7BDEFA' is selected.
+16:35:39 INFO  : 'jtag frequency' command is executed.
+16:35:39 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:35:39 INFO  : Context for processor 'microblaze_0' is selected.
+16:35:39 INFO  : Processor reset is completed for 'microblaze_0'.
+16:35:39 INFO  : Context for processor 'microblaze_0' is selected.
+16:35:39 INFO  : The application 'C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/yolo_layer/Debug/yolo_layer.elf' is downloaded to processor 'microblaze_0'.
+16:35:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA"} -index 0
+dow C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/yolo_layer/Debug/yolo_layer.elf
+----------------End of Script----------------
+
+16:35:39 INFO  : Memory regions updated for context PA
+16:35:39 INFO  : Memory regions updated for context PA
+16:35:39 INFO  : Context for processor 'microblaze_0' is selected.
+16:35:39 INFO  : 'con' command is executed.
+16:35:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA"} -index 0
+con
+----------------End of Script----------------
+
+16:35:39 INFO  : Launch script is exported to file 'C:\Users\hht\Desktop\DNN_690t_normal\DNN_690t_origin\DNN_690t_0531\dnn_690t\dnn_690t.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_yolo_layer.elf_on_local.tcl'
+16:35:46 INFO  : Disconnected from the channel tcfchan#5.
+16:35:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+16:35:47 INFO  : 'fpga -state' command is executed.
+16:35:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:35:47 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203A7BDEFA' is selected.
+16:35:47 INFO  : 'jtag frequency' command is executed.
+16:35:47 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:35:47 INFO  : Context for processor 'microblaze_0' is selected.
+16:35:47 INFO  : Processor reset is completed for 'microblaze_0'.
+16:35:47 INFO  : Context for processor 'microblaze_0' is selected.
+16:35:48 INFO  : The application 'C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/yolo_layer/Debug/yolo_layer.elf' is downloaded to processor 'microblaze_0'.
+16:35:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA"} -index 0
+dow C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/yolo_layer/Debug/yolo_layer.elf
+----------------End of Script----------------
+
+16:35:48 INFO  : Memory regions updated for context PA
+16:35:48 INFO  : Memory regions updated for context PA
+16:35:48 INFO  : Context for processor 'microblaze_0' is selected.
+16:35:48 INFO  : 'con' command is executed.
+16:35:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA"} -index 0
+con
+----------------End of Script----------------
+
+16:35:48 INFO  : Launch script is exported to file 'C:\Users\hht\Desktop\DNN_690t_normal\DNN_690t_origin\DNN_690t_0531\dnn_690t\dnn_690t.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_yolo_layer.elf_on_local.tcl'
+16:36:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:36:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+16:36:28 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+16:54:29 INFO  : Registering command handlers for SDK TCF services
+16:54:30 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\hht\Desktop\DNN_690t_normal\DNN_690t_origin\DNN_690t_0531\dnn_690t\dnn_690t.sdk\temp_xsdb_launch_script.tcl
+16:54:34 INFO  : XSCT server has started successfully.
+16:54:34 INFO  : Successfully done setting XSCT server connection channel  
+16:54:39 INFO  : Successfully done setting SDK workspace  
+16:54:39 INFO  : Processing command line option -hwspec C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top.hdf.
+17:01:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:01:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+17:01:41 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+17:04:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:04:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+17:04:05 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+17:06:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:06:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+17:06:20 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+17:08:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+17:08:01 INFO  : 'fpga -state' command is executed.
+17:08:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:08:01 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203A7BDEFA' is selected.
+17:08:01 INFO  : 'jtag frequency' command is executed.
+17:08:01 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:08:01 INFO  : Context for processor 'microblaze_0' is selected.
+17:08:01 ERROR : Cannot stop MicroBlaze. Stalled on instruction fetch
+17:08:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA"} -index 0
+rst -processor
+----------------End of Script----------------
+
+17:08:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:08:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+17:08:26 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+17:16:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:16:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+17:16:52 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+17:34:46 INFO  : Registering command handlers for SDK TCF services
+17:34:46 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\hht\Desktop\DNN_690t_normal\DNN_690t_origin\DNN_690t_0531\dnn_690t\dnn_690t.sdk\temp_xsdb_launch_script.tcl
+17:34:47 INFO  : XSCT server has started successfully.
+17:34:47 INFO  : Processing command line option -hwspec C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top.hdf.
+17:34:47 INFO  : Successfully done setting XSCT server connection channel  
+17:34:47 INFO  : Successfully done setting SDK workspace  
+17:34:47 INFO  : Checking for hwspec changes in the project DNN_top_hw_platform_0.
+17:40:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:40:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+17:40:28 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+17:40:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:40:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+17:40:55 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+18:01:13 INFO  : Registering command handlers for SDK TCF services
+18:01:13 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\hht\Desktop\DNN_690t_normal\DNN_690t_origin\DNN_690t_0531\dnn_690t\dnn_690t.sdk\temp_xsdb_launch_script.tcl
+18:01:14 INFO  : XSCT server has started successfully.
+18:01:14 INFO  : Successfully done setting XSCT server connection channel  
+18:01:14 INFO  : Successfully done setting SDK workspace  
+18:01:14 INFO  : Processing command line option -hwspec C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top.hdf.
+18:01:14 INFO  : Checking for hwspec changes in the project DNN_top_hw_platform_0.
+18:01:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:01:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+18:01:35 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+18:01:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:01:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+18:01:57 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+18:03:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:03:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:03:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+18:03:31 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+18:06:31 INFO  : Inferring section assignments and sizes from elf file: C:\Users\hht\Desktop\DNN_690t_normal\DNN_690t_origin\DNN_690t_0531\dnn_690t\dnn_690t.sdk\yolo\Debug\yolo.elf
+19:10:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:10:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+19:10:14 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+19:10:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:10:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+19:10:37 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+19:11:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:11:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+19:11:02 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+19:11:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:11:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+19:11:30 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+19:13:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:13:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+19:13:19 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+19:15:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:15:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+19:15:04 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+19:17:31 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\hht\Desktop\DNN_690t_normal\DNN_690t_origin\DNN_690t_0531\dnn_690t\dnn_690t.sdk\temp_xsdb_launch_script.tcl
+19:17:32 INFO  : XSCT server has started successfully.
+19:17:33 INFO  : Successfully done setting XSCT server connection channel  
+19:17:33 INFO  : Successfully done setting SDK workspace  
+19:17:35 INFO  : Registering command handlers for SDK TCF services
+19:17:35 INFO  : Processing command line option -hwspec C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top.hdf.
+19:17:36 INFO  : Checking for hwspec changes in the project DNN_top_hw_platform_0.
+19:20:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:20:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+19:20:08 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+19:30:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:30:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+19:30:42 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+19:35:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:35:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+19:35:45 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+19:37:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:37:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+19:37:13 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+19:42:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:42:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+19:42:18 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+20:12:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:12:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+20:12:02 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+20:27:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:27:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+20:27:24 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+20:33:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:33:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+20:33:01 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+20:45:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:45:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+20:45:45 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+20:46:30 INFO  : Inferring section assignments and sizes from elf file: C:\Users\hht\Desktop\DNN_690t_normal\DNN_690t_origin\DNN_690t_0531\dnn_690t\dnn_690t.sdk\yoloyolo\Debug\yoloyolo.elf
+21:34:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:34:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+21:34:04 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+21:34:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:34:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+21:34:19 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+21:45:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:45:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+21:45:48 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+21:54:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:54:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+21:54:32 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+21:55:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:55:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+21:55:24 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+22:13:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:13:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+22:13:11 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+22:15:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:15:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+22:15:01 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+10:06:48 INFO  : Registering command handlers for SDK TCF services
+10:06:48 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\hht\Desktop\DNN_690t_normal\DNN_690t_origin\DNN_690t_0531\dnn_690t\dnn_690t.sdk\temp_xsdb_launch_script.tcl
+10:06:50 INFO  : XSCT server has started successfully.
+10:06:50 INFO  : Successfully done setting XSCT server connection channel  
+10:06:52 INFO  : Processing command line option -hwspec C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top.hdf.
+10:06:52 INFO  : Successfully done setting SDK workspace  
+10:06:52 INFO  : Checking for hwspec changes in the project DNN_top_hw_platform_0.
+19:40:40 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\hht\Desktop\DNN_690t_normal\DNN_690t_origin\DNN_690t_0531\dnn_690t\dnn_690t.sdk\temp_xsdb_launch_script.tcl
+19:40:42 INFO  : XSCT server has started successfully.
+19:40:45 INFO  : Successfully done setting XSCT server connection channel  
+19:40:45 INFO  : Successfully done setting SDK workspace  
+19:40:47 INFO  : Registering command handlers for SDK TCF services
+19:40:47 INFO  : Processing command line option -hwspec C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top.hdf.
+19:40:47 INFO  : Checking for hwspec changes in the project DNN_top_hw_platform_0.
+19:40:47 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1593776359200,  Project:1593679444688
+19:40:47 INFO  : The hardware specification for project 'DNN_top_hw_platform_0' is different from C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top.hdf.
+19:40:47 INFO  : Copied contents of C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top.hdf into \DNN_top_hw_platform_0\system.hdf.
+19:40:48 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:40:51 INFO  : 
+19:40:52 INFO  : 
+19:40:58 INFO  : Updating hardware inferred compiler options for yolo1.
+19:40:58 INFO  : Updating hardware inferred compiler options for yoloyolo.
+19:40:58 INFO  : Clearing existing target manager status.
+19:41:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:42:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:42:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+19:42:49 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+19:46:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:46:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+19:46:00 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+20:33:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:33:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+20:33:07 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+20:44:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:44:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+20:44:48 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+21:24:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:24:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203A7BDEFA" && level==0} -index 0' command is executed.
+21:24:30 ERROR : couldn't open "C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top_hw_platform_0/download.bit": no such file or directory
+16:53:21 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\hht\Desktop\DNN_690t_normal\DNN_690t_origin\DNN_690t_0531\dnn_690t\dnn_690t.sdk\temp_xsdb_launch_script.tcl
+16:53:22 INFO  : XSCT server has started successfully.
+16:53:22 INFO  : Successfully done setting XSCT server connection channel  
+16:53:23 INFO  : Successfully done setting SDK workspace  
+16:53:24 INFO  : Registering command handlers for SDK TCF services
+16:53:25 INFO  : Processing command line option -hwspec C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.sdk/DNN_top.hdf.
+16:53:25 INFO  : Checking for hwspec changes in the project DNN_top_hw_platform_0.

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Jun 30 20:02:26 2023
+# Process ID: 25780
+# Current directory: F:/DNN_IP/DNNv4/dnn_690t/dnn_690t.runs/bram32_512_synth_1
+# Command line: vivado.exe -log bram32_512.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bram32_512.tcl
+# Log file: F:/DNN_IP/DNNv4/dnn_690t/dnn_690t.runs/bram32_512_synth_1/bram32_512.vds
+# Journal file: F:/DNN_IP/DNNv4/dnn_690t/dnn_690t.runs/bram32_512_synth_1\vivado.jou
+#-----------------------------------------------------------
+source bram32_512.tcl -notrace

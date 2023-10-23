@@ -1,0 +1,11 @@
+19:14:42 **** Auto Build of configuration Debug for project yolo ****
+make all 
+'Building target: yolo.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../yolo_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "yolo.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+f:/vivado2018.3/sdk/2018.3/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.3.1/../../../../microblaze-xilinx-elf/bin/ld.exe:../src/lscript.ld:23: syntax error
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:38: yolo.elf] Error 1
+
+19:14:42 Build Finished (took 197ms)
+

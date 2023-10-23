@@ -1,0 +1,928 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Tue Jul 18 11:38:33 2023
+| Host         : hht-lab running 64-bit Ubuntu 18.04.4 LTS
+| Command      : report_methodology -file yolo_layer_top_methodology_drc_routed.rpt -pb yolo_layer_top_methodology_drc_routed.pb -rpx yolo_layer_top_methodology_drc_routed.rpx
+| Design       : yolo_layer_top
+| Device       : xc7vx690tffg1761-2
+| Speed File   : -2
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 177
++----------+----------+--------------------------------------------------------+------------+
+| Rule     | Severity | Description                                            | Violations |
++----------+----------+--------------------------------------------------------+------------+
+| SYNTH-11 | Warning  | DSP output not registered                              | 96         |
+| SYNTH-12 | Warning  | DSP input not registered                               | 52         |
+| SYNTH-13 | Warning  | combinational multiplier                               | 27         |
+| XDCC-1   | Warning  | Scoped Clock constraint overwritten with the same name | 1          |
+| XDCC-7   | Warning  | Scoped Clock constraint overwritten on the same source | 1          |
++----------+----------+--------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+SYNTH-11#1 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_confidence_screen1/uut_c_sigmoid/ax1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#2 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_confidence_screen1/uut_c_sigmoid/axx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#3 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_confidence_screen1/uut_c_sigmoid/axx1__0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#4 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_confidence_screen1/uut_c_sigmoid/bx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#5 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_confidence_screen2/uut_c_sigmoid/ax1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#6 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_confidence_screen2/uut_c_sigmoid/axx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#7 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_confidence_screen2/uut_c_sigmoid/axx1__0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#8 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_confidence_screen2/uut_c_sigmoid/bx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#9 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls1/ax1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#10 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls1/axx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#11 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls1/axx1__0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#12 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls1/bx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#13 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls2/ax1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#14 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls2/axx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#15 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls2/axx1__0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#16 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls2/bx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#17 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls3/ax1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#18 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls3/axx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#19 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls3/axx1__0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#20 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls3/bx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#21 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls4/ax1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#22 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls4/axx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#23 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls4/axx1__0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#24 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls4/bx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#25 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls5/ax1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#26 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls5/axx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#27 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls5/axx1__0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#28 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls5/bx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#29 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls6/ax1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#30 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls6/axx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#31 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls6/axx1__0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#32 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls6/bx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#33 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls7/ax1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#34 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls7/axx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#35 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls7/axx1__0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#36 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls7/bx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#37 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls8/ax1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#38 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls8/axx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#39 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls8/axx1__0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#40 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls8/bx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#41 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls9/ax1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#42 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls9/axx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#43 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls9/axx1__0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#44 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls9/bx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#45 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_x/ax1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#46 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_x/axx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#47 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_x/axx1__0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#48 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_x/bx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#49 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_y/ax1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#50 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_y/axx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#51 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_y/axx1__0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#52 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_y/bx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#53 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls1/ax1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#54 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls1/axx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#55 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls1/axx1__0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#56 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls1/bx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#57 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls2/ax1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#58 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls2/axx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#59 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls2/axx1__0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#60 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls2/bx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#61 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls3/ax1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#62 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls3/axx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#63 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls3/axx1__0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#64 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls3/bx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#65 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls4/ax1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#66 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls4/axx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#67 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls4/axx1__0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#68 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls4/bx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#69 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls5/ax1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#70 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls5/axx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#71 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls5/axx1__0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#72 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls5/bx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#73 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls6/ax1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#74 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls6/axx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#75 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls6/axx1__0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#76 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls6/bx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#77 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls7/ax1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#78 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls7/axx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#79 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls7/axx1__0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#80 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls7/bx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#81 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls8/ax1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#82 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls8/axx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#83 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls8/axx1__0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#84 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls8/bx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#85 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls9/ax1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#86 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls9/axx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#87 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls9/axx1__0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#88 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls9/bx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#89 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_x/ax1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#90 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_x/axx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#91 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_x/axx1__0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#92 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_x/bx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#93 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_y/ax1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#94 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_y/axx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#95 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_y/axx1__0 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-11#96 Warning
+DSP output not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_y/bx1 is not fully pipelined on the output side. MREG/PREG are not used.
+Related violations: <none>
+
+SYNTH-12#1 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[0].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#2 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[10].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#3 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[11].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#4 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[12].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#5 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[13].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#6 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[14].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#7 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[15].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#8 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[16].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#9 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[17].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#10 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[18].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#11 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[19].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#12 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[20].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#13 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[21].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#14 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[22].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#15 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[24].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#16 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[25].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#17 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[27].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#18 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[28].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#19 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[2].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#20 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[2].uut_pe_unit/uut_box_iou/union_threshold_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#21 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[30].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#22 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[33].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#23 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[36].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#24 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[36].uut_pe_unit/uut_box_iou/union_threshold_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#25 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[37].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#26 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[37].uut_pe_unit/uut_box_iou/union_threshold_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#27 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[38].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#28 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[38].uut_pe_unit/uut_box_iou/union_threshold_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#29 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[39].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#30 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[39].uut_pe_unit/uut_box_iou/union_threshold_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#31 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[3].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#32 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[3].uut_pe_unit/uut_box_iou/union_threshold_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#33 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[40].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#34 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[41].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#35 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[41].uut_pe_unit/uut_box_iou/union_threshold_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#36 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[46].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#37 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[47].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#38 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[4].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#39 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[5].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#40 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[5].uut_pe_unit/uut_box_iou/union_threshold_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#41 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[6].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#42 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[7].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#43 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[8].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#44 Warning
+DSP input not registered  
+DSP instance uut_NMS/gen_pe_unit_LOOP[9].uut_pe_unit/uut_box_iou/box_a_b_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#45 Warning
+DSP input not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/h1 is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#46 Warning
+DSP input not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_exponent_h/idata_int_reg_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#47 Warning
+DSP input not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_exponent_w/idata_int_reg_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#48 Warning
+DSP input not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/w1 is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#49 Warning
+DSP input not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/h1 is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#50 Warning
+DSP input not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_exponent_h/idata_int_reg_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#51 Warning
+DSP input not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_exponent_w/idata_int_reg_reg is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-12#52 Warning
+DSP input not registered  
+DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/w1 is not fully pipelined on the input side. AREG/BREG/CREG/DREG are not used.
+Related violations: <none>
+
+SYNTH-13#1 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_confidence_screen1/uut_c_sigmoid/odata0.
+Related violations: <none>
+
+SYNTH-13#2 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_confidence_screen2/uut_c_sigmoid/odata0.
+Related violations: <none>
+
+SYNTH-13#3 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_exponent_h/idata_int_reg3.
+Related violations: <none>
+
+SYNTH-13#4 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_exponent_w/idata_int_reg3.
+Related violations: <none>
+
+SYNTH-13#5 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls1/odata0.
+Related violations: <none>
+
+SYNTH-13#6 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls2/odata0.
+Related violations: <none>
+
+SYNTH-13#7 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls3/odata0.
+Related violations: <none>
+
+SYNTH-13#8 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls4/odata0.
+Related violations: <none>
+
+SYNTH-13#9 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls5/odata0.
+Related violations: <none>
+
+SYNTH-13#10 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls6/odata0.
+Related violations: <none>
+
+SYNTH-13#11 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls7/odata0.
+Related violations: <none>
+
+SYNTH-13#12 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls8/odata0.
+Related violations: <none>
+
+SYNTH-13#13 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_cls9/odata0.
+Related violations: <none>
+
+SYNTH-13#14 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit1/uut_sigmoid_x/odata0.
+Related violations: <none>
+
+SYNTH-13#15 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_exponent_h/idata_int_reg3.
+Related violations: <none>
+
+SYNTH-13#16 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_exponent_w/idata_int_reg3.
+Related violations: <none>
+
+SYNTH-13#17 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls1/odata0.
+Related violations: <none>
+
+SYNTH-13#18 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls2/odata0.
+Related violations: <none>
+
+SYNTH-13#19 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls3/odata0.
+Related violations: <none>
+
+SYNTH-13#20 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls4/odata0.
+Related violations: <none>
+
+SYNTH-13#21 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls5/odata0.
+Related violations: <none>
+
+SYNTH-13#22 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls6/odata0.
+Related violations: <none>
+
+SYNTH-13#23 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls7/odata0.
+Related violations: <none>
+
+SYNTH-13#24 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls8/odata0.
+Related violations: <none>
+
+SYNTH-13#25 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_cls9/odata0.
+Related violations: <none>
+
+SYNTH-13#26 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_x/odata0.
+Related violations: <none>
+
+SYNTH-13#27 Warning
+combinational multiplier  
+Detected combinational multiplier in DSP instance uut_position_resolution/uut_rc_decode_pos/uut_decode_unit2/uut_sigmoid_y/odata0.
+Related violations: <none>
+
+XDCC-1#1 Warning
+Scoped Clock constraint overwritten with the same name  
+A new clock constraint create_clock overrides a previous scoped clock constraint with the same name. It is not recommended to override a scoped (typically an IP) clock constraint and could result in unexpected behaviors.
+New: create_clock -period 5.000 [get_ports diff_clock_rtl_clk_p] (Source: /home/hht/gzb/DNN330/ppa/pp717/dnn_690t/dnn_690t.srcs/constrs_1/new/IO.xdc (Line: 3))
+Previous: create_clock -period 5.000 [get_ports diff_clock_rtl_clk_p] (Source: /home/hht/gzb/DNN330/ppa/pp717/dnn_690t/dnn_690t.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc (Line: 56))
+Related violations: <none>
+
+XDCC-7#1 Warning
+Scoped Clock constraint overwritten on the same source  
+A new clock constraint create_clock overrides a previous scoped clock constraint defined on the same source. It is not recommended to override a scoped (typically an IP) clock constraint and could result in unexpected behaviors.
+New: create_clock -period 5.000 [get_ports diff_clock_rtl_clk_p] (Source: /home/hht/gzb/DNN330/ppa/pp717/dnn_690t/dnn_690t.srcs/constrs_1/new/IO.xdc (Line: 3))
+Previous: create_clock -period 5.000 [get_ports diff_clock_rtl_clk_p] (Source: /home/hht/gzb/DNN330/ppa/pp717/dnn_690t/dnn_690t.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc (Line: 56))
+Related violations: <none>
+
+

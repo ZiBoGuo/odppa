@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="C:\Users\hht\Desktop\ddr_signal_test\ddr_signal_test\project_1.runs\impl_1\top.mmi" key="DNN_top_hw_platform_0-bmmFile"/>
+	<item value="DNN_top_hw_platform_0" key="programfpga.hwplatform"/>
+	<item value="C:\Users\hht\Desktop\DNN_690t_normal\DNN_690t_origin\DNN_690t_0531\dnn_690t\dnn_690t.sdk\yolo1\Debug\yolo1.elf" key="DNN_top_hw_platform_0-microblaze_0-initElf"/>
+	<item value="Auto Detect" key="DNN_top_hw_platform_0-device"/>
+	<item value="C:\Users\hht\Desktop\ddr_signal_test\ddr_signal_test\project_1.runs\impl_1\top.bit" key="DNN_top_hw_platform_0-bitFile"/>
+	<item value="Local" key="DNN_top_hw_platform_0-target"/>
+	<item value="true" key="DNN_top_hw_platform_0-partial_bit"/>
+</section>
