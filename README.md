@@ -1,2 +1,2 @@
 # odppa
-An Efficient FPGA-based Accelerator for Post-Processing in Object Detection
+This repository is an efficient fPGA-based accelerator for post-processing in object detection (YOLO)
