@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="div_gen_synth_1" LaunchPart="xc7vx690tffg1761-2" LaunchTime="1688134212">
+  <File Type="PA-TCL" Name="div_gen.tcl"/>
+  <File Type="REPORTS-TCL" Name="div_gen_reports.tcl"/>
+  <File Type="RDS-RDS" Name="div_gen.vds"/>
+  <File Type="RDS-UTIL" Name="div_gen_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="div_gen_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="div_gen.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/div_gen">
+    <File Path="$PSRCDIR/sources_1/ip/div_gen/div_gen.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="div_gen"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/div_gen">
+    <File Path="$PSRCDIR/sources_1/ip/div_gen/div_gen.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="div_gen"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

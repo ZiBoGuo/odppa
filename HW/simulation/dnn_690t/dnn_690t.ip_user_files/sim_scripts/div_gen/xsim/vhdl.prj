@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../dnn_690t.srcs/sources_1/ip/div_gen/sim/div_gen.vhd" \
+
+nosort

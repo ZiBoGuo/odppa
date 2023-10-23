@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="DSP48_MACRO_synth_1" LaunchDir="C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.runs/DSP48_MACRO_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="blk_mem_gen_0_synth_1" LaunchDir="C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.runs/blk_mem_gen_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="psum_fifo_synth_1" LaunchDir="C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.runs/psum_fifo_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="biasBuffer_Rom_synth_1" LaunchDir="C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.runs/biasBuffer_Rom_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fifo_generator_0_synth_1" LaunchDir="C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.runs/fifo_generator_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_3" LaunchDir="C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.runs/synth_3" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="DSP48_MACRO_synth_1"/>
+		<Parent Id="blk_mem_gen_0_synth_1"/>
+		<Parent Id="psum_fifo_synth_1"/>
+		<Parent Id="biasBuffer_Rom_synth_1"/>
+		<Parent Id="fifo_generator_0_synth_1"/>
+	</Run>
+	<Run Id="impl_4" LaunchDir="C:/Users/hht/Desktop/DNN_690t_normal/DNN_690t_origin/DNN_690t_0531/dnn_690t/dnn_690t.runs/impl_4" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_3"/>
+		<Parent Id="DSP48_MACRO_synth_1"/>
+		<Parent Id="blk_mem_gen_0_synth_1"/>
+		<Parent Id="psum_fifo_synth_1"/>
+		<Parent Id="biasBuffer_Rom_synth_1"/>
+		<Parent Id="fifo_generator_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
