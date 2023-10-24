@@ -1,0 +1,8 @@
+military vehicles 0.995605 22 84 37 110
+military vehicles 1.000000 106 84 123 110
+military vehicles 1.000000 124 80 139 109
+military vehicles 0.997314 144 79 160 108
+military vehicles 1.000000 159 81 175 107
+military vehicles 1.000000 174 78 187 106
+military vehicles 1.000000 190 80 204 107
+military vehicles 1.000000 6 81 21 114

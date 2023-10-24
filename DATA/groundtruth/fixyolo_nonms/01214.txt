@@ -1,0 +1,4 @@
+destroyer 1.000000 82 11 100 57
+destroyer 1.000000 60 69 85 121
+destroyer 0.981689 61 71 86 121
+destroyer 0.894531 77 8 97 65

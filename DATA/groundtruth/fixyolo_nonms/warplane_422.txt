@@ -1,0 +1,2 @@
+warplane 1.000000 168 12 208 65
+aircraft carrier 0.555664 29 131 70 176

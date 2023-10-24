@@ -1,0 +1,2 @@
+aircraft carrier 0.979736 104 76 159 178
+aircraft carrier 1.000000 105 77 161 181

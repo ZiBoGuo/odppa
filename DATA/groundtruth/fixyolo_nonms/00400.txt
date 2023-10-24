@@ -1,0 +1,3 @@
+destroyer 0.676025 30 38 78 66
+merchant ship 1.000000 6 77 54 98
+merchant ship 1.000000 107 114 222 163

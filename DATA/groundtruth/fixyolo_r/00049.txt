@@ -1,0 +1,2 @@
+destroyer 0.583252 59 92 96 130
+aircraft carrier 1.000000 35 137 108 250

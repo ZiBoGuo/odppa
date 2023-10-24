@@ -1,0 +1,2 @@
+military vehicles 0.993652 45 3 59 23
+military vehicles 0.983887 39 70 54 88

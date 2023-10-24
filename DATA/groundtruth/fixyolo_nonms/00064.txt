@@ -1,0 +1,2 @@
+merchant ship 1.000732 80 59 181 130
+merchant ship 1.000000 83 60 181 131

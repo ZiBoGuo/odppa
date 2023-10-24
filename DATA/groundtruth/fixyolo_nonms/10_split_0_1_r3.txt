@@ -1,0 +1,6 @@
+car 0.555908 63 0 91 12
+military vehicles 0.989258 208 159 235 170
+military vehicles 0.732666 211 159 236 172
+military vehicles 0.970215 236 113 250 140
+military vehicles 1.000488 234 114 249 142
+military vehicles 1.000000 2 169 18 196

@@ -70,9 +70,9 @@ wire                   mask;
 
 initial  
 begin 
-    fp_r1=$fopen("F:\\github\\odppa\\DATA\\input\\19_split_1_3_r0_L2.txt","r");//以读的方式打开文件
-    fp_r=$fopen("F:\\github\\odppa\\DATA\\input\\19_split_1_3_r0_L1.txt","r");  
-    fp_w=$fopen("F:\\github\\odppa\\DATA\\output\\19_split_1_3_r0_fpga.txt","w");
+    fp_r1=$fopen("F:\\github\\odppa\\DATA\\input\\00157_L2.txt","r");//以读的方式打开文件
+    fp_r=$fopen("F:\\github\\odppa\\DATA\\input\\00157_L1.txt","r");  
+    fp_w=$fopen("F:\\github\\odppa\\DATA\\output\\00157_fpga.txt","w");
 end 
 
 
@@ -106,7 +106,7 @@ end
     		end 
 
             WAIT_DELY:begin
-                if(count2 == 20)              
+                if(count2 == 2)              
     				next_state = SEND_YOLO2;
     			else 
     				next_state = WAIT_DELY;
