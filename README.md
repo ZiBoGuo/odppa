@@ -61,8 +61,11 @@ __The fourth step__, the number of clock cycles for the full processing flow is 
 ## Part3:  The performance of C model Baseline
 ---
 __The first step__, __Visual Studio 2019 IDE__ is required to run the C Model.
+
 __The second step__, Open ./SW/yolov3Tiny_yololayer_c/yolov3Tiny_yololayer_c.sln project, find the main.c, and change the file paths in the code on lines 976, 1206, and 1211. namelistw.txt and yololistw.txt files can be found in the path ./SW/. Note that the file path in yololistw.txt should be changed to the absolute path of the file in ./DATA/input/.
+
 __The third step__, After compiling and running, you can see the runtime of NMS in the windows console. The overall running time can be obtained by modifying the timer position. The following table show the CPU runtime. (Test environment is i7-8700 CPU, 8GB RAM, Windows 10 64bit)
+
 | bbox number | NMS time(μs) | Overall time(μs) |
 |------|------|------|
 |1	|1    |1684|
