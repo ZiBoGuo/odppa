@@ -1,0 +1,27 @@
+﻿  main.c
+E:\DNNv4\yolov3Tiny_yololayer_c\yolov3Tiny_yololayer_c\main.c(19,23): warning C4305: “初始化”: 从“double”到“const float”截断
+E:\DNNv4\yolov3Tiny_yololayer_c\yolov3Tiny_yololayer_c\main.c(119,20): warning C4013: “box_iou_fix”未定义；假设外部返回 int
+E:\DNNv4\yolov3Tiny_yololayer_c\yolov3Tiny_yololayer_c\main.c(442,28): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+E:\DNNv4\yolov3Tiny_yololayer_c\yolov3Tiny_yololayer_c\main.c(636,106): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\DNNv4\yolov3Tiny_yololayer_c\yolov3Tiny_yololayer_c\main.c(637,110): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\DNNv4\yolov3Tiny_yololayer_c\yolov3Tiny_yololayer_c\main.c(668,116): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\DNNv4\yolov3Tiny_yololayer_c\yolov3Tiny_yololayer_c\main.c(669,120): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\DNNv4\yolov3Tiny_yololayer_c\yolov3Tiny_yololayer_c\main.c(620,1): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\DNNv4\yolov3Tiny_yololayer_c\yolov3Tiny_yololayer_c\main.c(621,1): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\DNNv4\yolov3Tiny_yololayer_c\yolov3Tiny_yololayer_c\main.c(731,1): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\DNNv4\yolov3Tiny_yololayer_c\yolov3Tiny_yololayer_c\main.c(732,1): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\DNNv4\yolov3Tiny_yololayer_c\yolov3Tiny_yololayer_c\main.c(733,1): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\DNNv4\yolov3Tiny_yololayer_c\yolov3Tiny_yololayer_c\main.c(734,1): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\DNNv4\yolov3Tiny_yololayer_c\yolov3Tiny_yololayer_c\main.c(506,21): warning C4101: “err5”: 未引用的局部变量
+E:\DNNv4\yolov3Tiny_yololayer_c\yolov3Tiny_yololayer_c\main.c(920,114): warning C4554: “>>”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\DNNv4\yolov3Tiny_yololayer_c\yolov3Tiny_yololayer_c\main.c(921,118): warning C4554: “>>”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+E:\DNNv4\yolov3Tiny_yololayer_c\yolov3Tiny_yololayer_c\main.c(906,1): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\DNNv4\yolov3Tiny_yololayer_c\yolov3Tiny_yololayer_c\main.c(907,1): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\DNNv4\yolov3Tiny_yololayer_c\yolov3Tiny_yololayer_c\main.c(990,1): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\DNNv4\yolov3Tiny_yololayer_c\yolov3Tiny_yololayer_c\main.c(991,1): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\DNNv4\yolov3Tiny_yololayer_c\yolov3Tiny_yololayer_c\main.c(992,1): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\DNNv4\yolov3Tiny_yololayer_c\yolov3Tiny_yololayer_c\main.c(993,1): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\DNNv4\yolov3Tiny_yololayer_c\yolov3Tiny_yololayer_c\main.c(790,22): warning C4101: “err5”: 未引用的局部变量
+E:\DNNv4\yolov3Tiny_yololayer_c\yolov3Tiny_yololayer_c\main.c(982,9): warning C4101: “j”: 未引用的局部变量
+E:\DNNv4\yolov3Tiny_yololayer_c\yolov3Tiny_yololayer_c\main.c(479): warning C4715: “fix_sigmoid”: 不是所有的控件路径都返回值
+  yolov3Tiny_yololayer_c.vcxproj -> E:\DNNv4\yolov3Tiny_yololayer_c\x64\Debug\yolov3Tiny_yololayer_c.exe

@@ -1,0 +1,10 @@
+C:\Users\admin\Desktop\gzb\DNNv4\yolo_t\yoloL\00022_L1.txt
+C:\Users\admin\Desktop\gzb\DNNv4\yolo_t\yoloL\00022_L2.txt
+C:\Users\admin\Desktop\gzb\DNNv4\yolo_t\yoloL\00223_L1.txt
+C:\Users\admin\Desktop\gzb\DNNv4\yolo_t\yoloL\00223_L2.txt
+C:\Users\admin\Desktop\gzb\DNNv4\yolo_t\yoloL\P0134_split_1_0_r0_L1.txt
+C:\Users\admin\Desktop\gzb\DNNv4\yolo_t\yoloL\P0134_split_1_0_r0_L2.txt
+C:\Users\admin\Desktop\gzb\DNNv4\yolo_t\yoloL\19_split_2_2_r0_L1.txt
+C:\Users\admin\Desktop\gzb\DNNv4\yolo_t\yoloL\19_split_2_2_r0_L2.txt
+C:\Users\admin\Desktop\gzb\DNNv4\yolo_t\yoloL\P0031_split_0_0_r0_L1.txt
+C:\Users\admin\Desktop\gzb\DNNv4\yolo_t\yoloL\P0031_split_0_0_r0_L2.txt
