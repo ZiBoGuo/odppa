@@ -58,7 +58,7 @@ __The fourth step__, the number of clock cycles for the full processing flow is 
 
 ![File Open Error](HW/simulation/image/result.png)
 
-## Part3:  The performance of C model Baseline
+## Part3:  The Baseline performance of C model 
 ---
 __The first step__, __Visual Studio 2019 IDE__ is required to run the C Model.
 
